@@ -39,9 +39,6 @@ public class LabW3_4 {
                 out.flush();
             } finally {
                 clientSocket.close();//закрыть сервер
-                // закрыть потоки
-                in.close();
-                out.close();
             }
         } finally {
             //закрыть сервер
